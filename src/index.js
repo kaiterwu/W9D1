@@ -11,3 +11,4 @@ let test = new MovingObject({
   color: "#00FF00",
 });
 window.MovingObject = MovingObject;
+window.test = test;

@@ -16,7 +16,7 @@
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass MovingObject {\n  constructor(args) {\n\n    this.pos = args[pos]\n    this.vel = args[vel];\n    this.radius = args[radius];\n    this.color = args[color];\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MovingObject);\n\n\n//# sourceURL=webpack://w9d1/./src/MovingObject.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nclass MovingObject {\n  constructor(args) {\n\n    this.pos = args.pos\n    this.vel = args.vel;\n    this.radius = args.radius;\n    this.color = args.color;\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MovingObject);\n\n\n//# sourceURL=webpack://w9d1/./src/MovingObject.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MovingObject.js */ \"./src/MovingObject.js\");\nconsole.log(\"hello world\");\n\n\n\nlet test = new _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  pos: [1, 2],\n  vel: 10,\n  radius: 5,\n  color: \"#00FF00\",\n});\nwindow.MovingObject = _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n\n\n//# sourceURL=webpack://w9d1/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MovingObject.js */ \"./src/MovingObject.js\");\nconsole.log(\"hello world\");\n\n\n\n// const object = require(\"./MovingObject.js\")\n\nlet test = new _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]({\n  pos: [1, 2],\n  vel: 10,\n  radius: 5,\n  color: \"#00FF00\",\n});\nwindow.MovingObject = _MovingObject_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\nwindow.test = test;\n\n\n//# sourceURL=webpack://w9d1/./src/index.js?");
 
 /***/ })
 
