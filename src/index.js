@@ -1,13 +1,14 @@
 console.log("hello world");
 
 import MovingObject from "./MovingObject.js";
+import Asteroid from "./asteroid.js";
 
 // const object = require("./MovingObject.js")
 
 
 let test = new MovingObject({
   pos: [400,400],
-  vel: [5,5],
+  vel: [40,40],
   radius: 20,
   color: "#00FF00",
 });
