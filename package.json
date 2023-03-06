@@ -1,0 +1,27 @@
+{
+  "name": "w9d1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiterwu/W9D1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiterwu/W9D1/issues"
+  },
+  "homepage": "https://github.com/kaiterwu/W9D1#readme",
+  "dependencies": {
+    "wepback": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
