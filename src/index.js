@@ -6,9 +6,9 @@ import MovingObject from "./MovingObject.js";
 
 
 let test = new MovingObject({
-  pos: [100,200],
-  vel: 10,
-  radius: 50,
+  pos: [400,400],
+  vel: [5,5],
+  radius: 20,
   color: "#00FF00",
 });
 
